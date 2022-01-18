@@ -7,10 +7,8 @@
 /.idea/workspace.xml
 /.idea
 /build
-/captures
-.externalNativeBuild
 /gradle-build
 local.properties
-gradle.properties
+
 
 

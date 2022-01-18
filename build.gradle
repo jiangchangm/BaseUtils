@@ -13,6 +13,11 @@ buildscript {
     }
 }
 
+allprojects{
+    //重新定义工程下所有项目的/build打包的路径，更换到/gradle-build目录下
+    buildDir = new File(rootDir, "gradle-build/${path.replaceAll(':', '/')}")
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
