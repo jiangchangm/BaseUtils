@@ -12,3 +12,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "BaseUtils"
 include ':app'
+include ':base'
